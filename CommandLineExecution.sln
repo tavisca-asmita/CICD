@@ -5,7 +5,12 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandLineExecution", "CommandLineExecution\CommandLineExecution.csproj", "{5B32803F-3BD9-4F5E-BED0-35F08E766D30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{9873A26D-3B13-4B23-A7EF-DB3AD785435A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{9873A26D-3B13-4B23-A7EF-DB3AD785435A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F345A65-ECD8-46DD-B827-56211FD424CC}"
+	ProjectSection(SolutionItems) = preProject
+		Output.txt = Output.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

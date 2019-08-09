@@ -1,0 +1,207 @@
+C:\Users\assharma\source\repos\tavisca-asmita\CICD\CommandLineExecution>msbuild CommandLineExecution.csproj
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/10/2019 1:47:56 AM.
+Project "C:\Users\assharma\source\repos\tavisca-asmita\CICD\CommandLineExecution\CommandLineExecution.csproj" on node 1
+ (default targets).
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the i
+nput files.
+CoreGenerateAssemblyInfo:
+Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Roslyn\csc.exe /noconfig /unsafe- /
+  checked- /nowarn:1701,1702,1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE;DEBUG;NETCOREAPP;NETCOREAPP
+  2_1 /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\Microso
+  ft.CSharp.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp
+  2.1\Microsoft.VisualBasic.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.
+  0\ref\netcoreapp2.1\Microsoft.Win32.Primitives.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\micro
+  soft.netcore.app\2.1.0\ref\netcoreapp2.1\mscorlib.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\mi
+  crosoft.netcore.app\2.1.0\ref\netcoreapp2.1\netstandard.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFol
+  der\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.AppContext.dll" /reference:"C:\Program Files\dotnet\sdk\NuGe
+  tFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Buffers.dll" /reference:"C:\Program Files\dotnet
+  \sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Collections.Concurrent.dll" /reference:
+  "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Collections.dll
+  " /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Co
+  llections.Immutable.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\
+  netcoreapp2.1\System.Collections.NonGeneric.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsof
+  t.netcore.app\2.1.0\ref\netcoreapp2.1\System.Collections.Specialized.dll" /reference:"C:\Program Files\dotnet\sdk\NuG
+  etFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.ComponentModel.Annotations.dll" /reference:"C:\
+  Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.ComponentModel.Data
+  Annotations.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcorea
+  pp2.1\System.ComponentModel.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.
+  1.0\ref\netcoreapp2.1\System.ComponentModel.EventBasedAsync.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbac
+  kFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.ComponentModel.Primitives.dll" /reference:"C:\Program Fi
+  les\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.ComponentModel.TypeConverter.
+  dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System
+  .Configuration.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netco
+  reapp2.1\System.Console.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\
+  ref\netcoreapp2.1\System.Core.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\
+  2.1.0\ref\netcoreapp2.1\System.Data.Common.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft
+  .netcore.app\2.1.0\ref\netcoreapp2.1\System.Data.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\mic
+  rosoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Diagnostics.Contracts.dll" /reference:"C:\Program Files\dotnet\sdk\
+  NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Diagnostics.Debug.dll" /reference:"C:\Progra
+  m Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Diagnostics.DiagnosticSou
+  rce.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\Sy
+  stem.Diagnostics.FileVersionInfo.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.a
+  pp\2.1.0\ref\netcoreapp2.1\System.Diagnostics.Process.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolde
+  r\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Diagnostics.StackTrace.dll" /reference:"C:\Program Files\dotne
+  t\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Diagnostics.TextWriterTraceListener.dl
+  l" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.D
+  iagnostics.Tools.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\net
+  coreapp2.1\System.Diagnostics.TraceSource.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.
+  netcore.app\2.1.0\ref\netcoreapp2.1\System.Diagnostics.Tracing.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFall
+  backFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFal
+  lbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Drawing.dll" /reference:"C:\Program Files\dotnet\sdk
+  \NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Drawing.Primitives.dll" /reference:"C:\Prog
+  ram Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Dynamic.Runtime.dll" /r
+  eference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Global
+  ization.Calendars.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\ne
+  tcoreapp2.1\System.Globalization.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.a
+  pp\2.1.0\ref\netcoreapp2.1\System.Globalization.Extensions.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallback
+  Folder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.IO.Compression.Brotli.dll" /reference:"C:\Program Files\d
+  otnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.IO.Compression.dll" /reference:"C:
+  \Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.IO.Compression.Fil
+  eSystem.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.
+  1\System.IO.Compression.ZipFile.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.ap
+  p\2.1.0\ref\netcoreapp2.1\System.IO.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcor
+  e.app\2.1.0\ref\netcoreapp2.1\System.IO.FileSystem.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\m
+  icrosoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.IO.FileSystem.DriveInfo.dll" /reference:"C:\Program Files\dotnet\
+  sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.IO.FileSystem.Primitives.dll" /reference
+  :"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.IO.FileSystem.
+  Watcher.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.
+  1\System.IO.IsolatedStorage.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.
+  1.0\ref\netcoreapp2.1\System.IO.MemoryMappedFiles.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\mi
+  crosoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.IO.Pipes.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbac
+  kFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.IO.UnmanagedMemoryStream.dll" /reference:"C:\Program Fil
+  es\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Linq.dll" /reference:"C:\Progr
+  am Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Linq.Expressions.dll" /r
+  eference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Linq.P
+  arallel.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.
+  1\System.Linq.Queryable.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\
+  ref\netcoreapp2.1\System.Memory.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.ap
+  p\2.1.0\ref\netcoreapp2.1\System.Net.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netco
+  re.app\2.1.0\ref\netcoreapp2.1\System.Net.Http.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\micro
+  soft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Net.HttpListener.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFa
+  llbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Net.Mail.dll" /reference:"C:\Program Files\dotnet\s
+  dk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Net.NameResolution.dll" /reference:"C:\Pr
+  ogram Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Net.NetworkInformatio
+  n.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\Syst
+  em.Net.Ping.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcorea
+  pp2.1\System.Net.Primitives.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.
+  1.0\ref\netcoreapp2.1\System.Net.Requests.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.
+  netcore.app\2.1.0\ref\netcoreapp2.1\System.Net.Security.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFol
+  der\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Net.ServicePoint.dll" /reference:"C:\Program Files\dotnet\sd
+  k\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Net.Sockets.dll" /reference:"C:\Program Fi
+  les\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Net.WebClient.dll" /reference
+  :"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Net.WebHeaderC
+  ollection.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp
+  2.1\System.Net.WebProxy.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\
+  ref\netcoreapp2.1\System.Net.WebSockets.Client.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\micro
+  soft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Net.WebSockets.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFall
+  backFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Numerics.dll" /reference:"C:\Program Files\dotnet\sdk
+  \NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Numerics.Vectors.dll" /reference:"C:\Progra
+  m Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.ObjectModel.dll" /referen
+  ce:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Reflection.D
+  ispatchProxy.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcore
+  app2.1\System.Reflection.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0
+  \ref\netcoreapp2.1\System.Reflection.Emit.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.
+  netcore.app\2.1.0\ref\netcoreapp2.1\System.Reflection.Emit.ILGeneration.dll" /reference:"C:\Program Files\dotnet\sdk\
+  NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Reflection.Emit.Lightweight.dll" /reference:
+  "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Reflection.Exte
+  nsions.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1
+  \System.Reflection.Metadata.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.
+  1.0\ref\netcoreapp2.1\System.Reflection.Primitives.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\m
+  icrosoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Reflection.TypeExtensions.dll" /reference:"C:\Program Files\dotne
+  t\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Resources.Reader.dll" /reference:"C:\P
+  rogram Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Resources.ResourceMa
+  nager.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\
+  System.Resources.Writer.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\
+  ref\netcoreapp2.1\System.Runtime.CompilerServices.VisualC.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackF
+  older\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Runtime.dll" /reference:"C:\Program Files\dotnet\sdk\NuGet
+  FallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Runtime.Extensions.dll" /reference:"C:\Program Fi
+  les\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Runtime.Handles.dll" /referen
+  ce:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Runtime.Inte
+  ropServices.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcorea
+  pp2.1\System.Runtime.InteropServices.RuntimeInformation.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFol
+  der\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Runtime.InteropServices.WindowsRuntime.dll" /reference:"C:\P
+  rogram Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Runtime.Loader.dll"
+  /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Runt
+  ime.Numerics.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcore
+  app2.1\System.Runtime.Serialization.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcor
+  e.app\2.1.0\ref\netcoreapp2.1\System.Runtime.Serialization.Formatters.dll" /reference:"C:\Program Files\dotnet\sdk\Nu
+  GetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Runtime.Serialization.Json.dll" /reference:"C:
+  \Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Runtime.Serializat
+  ion.Primitives.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netco
+  reapp2.1\System.Runtime.Serialization.Xml.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.
+  netcore.app\2.1.0\ref\netcoreapp2.1\System.Security.Claims.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallback
+  Folder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Security.Cryptography.Algorithms.dll" /reference:"C:\Prog
+  ram Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Security.Cryptography.C
+  sp.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\Sys
+  tem.Security.Cryptography.Encoding.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore
+  .app\2.1.0\ref\netcoreapp2.1\System.Security.Cryptography.Primitives.dll" /reference:"C:\Program Files\dotnet\sdk\NuG
+  etFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Security.Cryptography.X509Certificates.dll" /re
+  ference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Securit
+  y.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\Syst
+  em.Security.Principal.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\re
+  f\netcoreapp2.1\System.Security.SecureString.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microso
+  ft.netcore.app\2.1.0\ref\netcoreapp2.1\System.ServiceModel.Web.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFall
+  backFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.ServiceProcess.dll" /reference:"C:\Program Files\dotn
+  et\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Text.Encoding.dll" /reference:"C:\Pro
+  gram Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Text.Encoding.Extensio
+  ns.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\Sys
+  tem.Text.RegularExpressions.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.
+  1.0\ref\netcoreapp2.1\System.Threading.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.net
+  core.app\2.1.0\ref\netcoreapp2.1\System.Threading.Overlapped.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallba
+  ckFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Threading.Tasks.Dataflow.dll" /reference:"C:\Program Fi
+  les\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Threading.Tasks.dll" /referen
+  ce:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Threading.Ta
+  sks.Extensions.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netco
+  reapp2.1\System.Threading.Tasks.Parallel.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.n
+  etcore.app\2.1.0\ref\netcoreapp2.1\System.Threading.Thread.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallback
+  Folder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Threading.ThreadPool.dll" /reference:"C:\Program Files\do
+  tnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Threading.Timer.dll" /reference:"C:
+  \Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Transactions.dll"
+  /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Tran
+  sactions.Local.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netco
+  reapp2.1\System.ValueTuple.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1
+  .0\ref\netcoreapp2.1\System.Web.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.ap
+  p\2.1.0\ref\netcoreapp2.1\System.Web.HttpUtility.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\mic
+  rosoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Windows.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackF
+  older\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Xml.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFall
+  backFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Xml.Linq.dll" /reference:"C:\Program Files\dotnet\sdk
+  \NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Xml.ReaderWriter.dll" /reference:"C:\Progra
+  m Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Xml.Serialization.dll" /r
+  eference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Xml.XD
+  ocument.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.
+  1\System.Xml.XmlDocument.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0
+  \ref\netcoreapp2.1\System.Xml.XmlSerializer.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsof
+  t.netcore.app\2.1.0\ref\netcoreapp2.1\System.Xml.XPath.dll" /reference:"C:\Program Files\dotnet\sdk\NuGetFallbackFold
+  er\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.Xml.XPath.XDocument.dll" /reference:"C:\Program Files\dotnet\
+  sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\WindowsBase.dll" /debug+ /debug:portable /filea
+  lign:512 /optimize- /out:obj\Debug\netcoreapp2.1\CommandLineExecution.dll /ruleset:"C:\Program Files (x86)\Microsoft
+  Visual Studio\2017\Professional\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /target:
+  exe /warnaserror- /utf8output /deterministic+ Program.cs "C:\Users\assharma\AppData\Local\Temp\.NETCoreApp,Version=v2
+  .1.AssemblyAttributes.cs" obj\Debug\netcoreapp2.1\CommandLineExecution.AssemblyInfo.cs /warnaserror+:NU1605
+  Using shared compilation with compiler from directory: C:\Program Files (x86)\Microsoft Visual Studio\2017\Profession
+  al\MSBuild\15.0\bin\Roslyn
+GenerateBuildRuntimeConfigurationFiles:
+Skipping target "GenerateBuildRuntimeConfigurationFiles" because all output files are up-to-date with respect to the in
+put files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\netcoreapp2.1\CommandLineExecution.dll" to "bin\Debug\netcoreapp2.1\CommandLineExecution
+  .dll".
+  CommandLineExecution -> C:\Users\assharma\source\repos\tavisca-asmita\CICD\CommandLineExecution\bin\Debug\netcoreapp2
+  .1\CommandLineExecution.dll
+  Copying file from "obj\Debug\netcoreapp2.1\CommandLineExecution.pdb" to "bin\Debug\netcoreapp2.1\CommandLineExecution
+  .pdb".
+Done Building Project "C:\Users\assharma\source\repos\tavisca-asmita\CICD\CommandLineExecution\CommandLineExecution.csp
+roj" (default targets).
+
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.91
